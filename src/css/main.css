@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+.navbar {
+  width: 100%;
+}
+.navbar__top {
+  width: 100%;
+  background-color: black;
+}
+.navbar__bottom {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__bottom .left-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.navbar__bottom .left-logo .svg {
+  display: block;
+  width: 15px;
+  height: 13px;
+  object-fit: cover;
+}
+.navbar__bottom .left-logo .logo-text > span {
+  display: block;
+}
+.navbar__bottom .mid-navlinks {
+  height: 100%;
+}
+.navbar__bottom .mid-navlinks ul {
+  outline: 1px solid black;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.navbar__bottom .mid-navlinks ul > li {
+  display: block;
+}
+.navbar__bottom .mid-navlinks ul > li > a {
+  font-weight: 700;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+.navbar__bottom .right-icons {
+  display: flex;
+  align-items: center;
+}
+:is(.smiley, .cart, .search) > span {
+  display: block;
+  height: 28px;
+}
+
+.hero-wrapper {
+  width: 100%;
+  background-image: url("/src/assets/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 5vw;
+}
+
+.main-hero {
+  position: relative;
+  height: 100vmin;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+}/*# sourceMappingURL=main.css.map */

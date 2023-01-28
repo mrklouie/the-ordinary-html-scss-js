@@ -1,0 +1,83 @@
+@use "../globals/variables";
+
+.navbar {
+  width: 100%;
+  &__top {
+    width: 100%;
+    background-color: black;
+  }
+
+  &__bottom {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .left-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+
+      & .svg {
+        display: block;
+        width: 15px;
+        height: 13px;
+        object-fit: cover;
+      }
+
+      & .logo-text {
+        & > span {
+          display: block;
+        }
+      }
+    }
+
+    & .mid-navlinks {
+      height: 100%;
+      & ul {
+        outline: 1px solid black;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+
+        & > li {
+          display: block;
+          & > a {
+            font-weight: variables.getFontWeight("bold");
+            display: block;
+            padding: 0.5em;
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+
+    & .right-icons {
+      display: flex;
+      align-items: center;
+      & .smiley {
+        & > span {
+        }
+      }
+
+      & .cart {
+        & > span {
+        }
+      }
+
+      & .search {
+        & > span {
+        }
+      }
+    }
+  }
+}
+
+:is(.smiley, .cart, .search) > span {
+  display: block;
+  height: 28px;
+}

@@ -192,6 +192,7 @@
 }
 #contact-page :where(.side-finally-wrapper) {
   left: var(--padding);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 #has-pseudo {

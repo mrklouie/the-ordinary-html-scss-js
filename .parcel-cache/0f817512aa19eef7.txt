@@ -1,4 +1,4 @@
-4637
+4636
 182C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133194619581028725 0
 183C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md133194619580998790 0
 162C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\transformer-js\package.json133194619578402852 0
@@ -24,7 +24,7 @@
 175C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\runtime-js\src\helpers\node\js-loader.js133194619579677742 0
 136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@mischnic133194619562718289 1
 136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\.bin\svgo133194619587479712 0
-118C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist133194667271367363 1
+118C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist133194670923807879 1
 152C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\svgo\plugins\prefixIds.js133194619580285732 0
 183C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@swc\helpers\lib\_create_for_of_iterator_helper_loose.js133194619580133426 0
 165C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133194619582338511 0
@@ -37,7 +37,7 @@
 144C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@msgpackr-extract133194619591186866 1
 158C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\regions\FI.js133194619584108026 0
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@swc\helpers\src\_new_arrow_check.mjs133194619582478133 0
-124C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\.gitignore133194618590637089 0
+124C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\.gitignore133194669228139138 0
 163C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\transformer-babel\lib\jsx.js133194619578692078 0
 170C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\test\fixtures\config\.parcelrc133194619578172726 0
 158C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\update-browserslist-db\utils.js133194619577145465 0
@@ -78,7 +78,7 @@
 120C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\js133194616751552334 1
 154C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\yaml\dist\legacy-exports.js133194619578512569 0
 158C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper\core\images\loadImage.js133194619581818450 0
-128C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\index.html133194667269950107 0
+128C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\index.html133194670899395512 0
 182C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper\angular\esm2020\angular\src\swiper.component.mjs133194619583529571 0
 133C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper133194619584157898 1
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\css-tree\lib\syntax\pseudo\matches.js133194619581546339 0
@@ -101,7 +101,7 @@
 141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\tslib\tslib.js133194619577334965 0
 176C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper\angular\esm2020\angular\src\public-api.mjs133194619583419872 0
 165C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\transformer-babel\package.json133194619579279635 0
-144C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\scss\components\_hero.scss133194666593005090 0
+144C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\scss\components\_hero.scss133194670926024275 0
 167C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\dom-serializer\lib\foreignNames.d.ts.map133194619578102920 0
 146C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\react-error-overlay133194619577953310 1
 146C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\stable\package.json133194619575729265 0
@@ -114,7 +114,7 @@
 166C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\terser\node_modules\commander\Readme.md133194619577334965 0
 130C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\scss\globals133194616751581774 1
 162C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\features\fetch.js133194619584098051 0
-130C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\css\main.css133194666593904061 0
+130C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\css\main.css133194670926697350 0
 159C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\picocolors\picocolors.browser.js133194619576098274 0
 157C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper\shared\effect-target.js133194619581133365 0
 145C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\docs\docs133194619581223122 1
@@ -167,7 +167,7 @@
 179C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133194619582338511 0
 159C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@jridgewell\sourcemap-codec\dist133194619577823658 1
 177C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\swiper\components-shared\update-on-virtual-data.js133194619582821025 0
-134C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\css\main.css.map133194666593904061 0
+134C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\css\main.css.map133194670926697350 0
 136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\src\assets\hero-bg.jpg133194616751532367 0
 137C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\terser\lib133194619581008782 1
 168C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\features\multicolumn.js133194619585538051 0
@@ -410,7 +410,7 @@
 146C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\detect-libc\LICENSE133194619576926053 0
 134C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\is-json133194619577484560 1
 173C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\features\domcontentloaded.js133194619583758962 0
-137C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.34df27b5.css133194666594836685 0
+137C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.34df27b5.css133194670923718125 0
 136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\is-number133194619576736562 1
 148C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\mdn-data\package.json133194619578751928 0
 153C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\lightningcss\node\index.js133194619578132831 0
@@ -446,7 +446,7 @@
 154C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\utility-types\dist\index.js133194619576896136 0
 146C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\parse-json\index.js133194619576108244 0
 174C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\watcher\src\watchman\WatchmanBackend.cc133194619578722000 0
-137C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.d35229a6.css133194666145822923 0
+137C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.d35229a6.css133194669733579899 0
 144C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\lines-and-columns133194619576836293 1
 181C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\node-resolver-core\test\fixture\nested\test.js133194619581506452 0
 152C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\utility-types\SECURITY.md133194619578712027 0
@@ -542,7 +542,7 @@
 147C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\postcss-value-parser133194619577783764 1
 157C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\yaml\browser\dist\package.json133194619580789453 0
 135C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\posthtml133194619577344937 1
-136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.ef759d86.js133194666146760406 0
+136C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.ef759d86.js133194669733579899 0
 153C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\css-what\lib\es\types.d.ts133194619579567983 0
 178C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133194619580546068 0
 142C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\posthtml-parser133194619577614224 1
@@ -2287,7 +2287,7 @@
 177C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\features\high-resolution-time.js133194619584563816 0
 158C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\caniuse-lite\data\regions\HK.js133194619584583758 0
 153C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\mdn-data\css\syntaxes.json133194619579435038 0
-141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.d35229a6.css.map133194666146241810 0
+141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.d35229a6.css.map133194669733689604 0
 157C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\mdn-data\css\types.schema.json133194619579578004 0
 150C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\mdn-data\css\units.json133194619579717625 0
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\csso\lib\restructure\prepare\index.js133194619580143411 0
@@ -2582,7 +2582,7 @@
 144C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\index.js133194619578622267 0
 139C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\lib133194619578512569 1
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@swc\helpers\src\_define_property.mjs133194619582308590 0
-140C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.ef759d86.js.map133194666146800296 0
+140C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.ef759d86.js.map133194669733689604 0
 157C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\css-what\lib\es\types.d.ts.map133194619579080164 0
 148C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\package.json133194619580605930 0
 145C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\htmlnano\README.md133194619581356860 0
@@ -4009,7 +4009,7 @@
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\src\prettyDiagnostic.js133194619580998790 0
 164C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\src\progress-message.js133194619581018752 0
 160C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\src\PromiseQueue.js133194619581038699 0
-129C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.html133194667271357383 0
+129C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.html133194669733579899 0
 171C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\src\replaceBundleReferences.js133194619581143338 0
 156C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\src\throttle.js133194619581366830 0
 153C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\utils\lib\index.js133194619580585978 0
@@ -4388,7 +4388,7 @@
 170C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\TargetDescriptor.schema.js133194619582478133 0
 163C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\UncommittedAsset.js133194619582620927 0
 152C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\utils.js133194619582640863 0
-141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.34df27b5.css.map133194666594866622 0
+141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\index.34df27b5.css.map133194670923797904 0
 157C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\Validation.js133194619582660810 0
 168C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\requests\AssetRequest.js133194619579817730 0
 169C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\@parcel\core\src\requests\ConfigRequest.js133194619580847269 0
@@ -4633,6 +4633,5 @@
 138C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\.bin\terser133194619587479712 0
 142C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\.bin\terser.cmd133194619587479712 0
 142C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\node_modules\.bin\terser.ps1133194619587479712 0
-131C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\contact.html133194667129695791 0
-141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\hero-bg-2.af28b30a.jpg133194666145822923 0
-139C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\hero-bg.eb41a231.jpg133194623261174939 0
+131C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\contact.html133194669733579899 0
+141C:\Users\admin\Desktop\Mark Louie\Web Development 2022\Babi's Journey in Web Developing\the-ordinary-html-scss-js\dist\hero-bg-2.af28b30a.jpg133194669733579899 0

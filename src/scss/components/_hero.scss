@@ -1,11 +1,15 @@
 @use "../globals/variables";
 
-.hero-wrapper {
+.hero-wrapper:not(#contact-page .hero-wrapper) {
   width: 100%;
-  background-image: url("/src/assets/hero-bg.jpg");
+  background-image: url("/src/assets/hero-bg-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#contact-page .hero-wrapper {
+  width: 100%;
 }
 
 .wrapper {
@@ -135,6 +139,72 @@
 
   &__arrow-link {
   }
+}
+
+.regimen-builder-wrapper {
+  width: min(50%, 37rem);
+
+  font-size: 1rem;
+
+  &__header {
+    width: 70%;
+
+    & h2 {
+      font-size: 2em;
+    }
+  }
+
+  &__inputName {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 3em 0;
+    padding: 1em 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #333 !important;
+  }
+
+  &__submit {
+    color: #757575;
+    border-color: 1px solid #aaa;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #757575;
+    outline: none;
+    margin-left: auto;
+    padding: 0.5em 4em;
+    font-size: 0.85em;
+    text-decoration: none;
+    display: block;
+  }
+
+  &__form-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#contact-page :where(.main-hero) {
+  display: grid;
+  place-items: center;
+}
+#contact-page :where(.side-finally-wrapper) {
+  left: var(--padding);
+}
+
+#has-pseudo {
+  position: relative;
+}
+
+#has-pseudo::after {
+  position: absolute;
+  content: "Currently not available";
+  font-size: 0.35em;
+  white-space: nowrap;
+  left: 0;
+  bottom: 0;
 }
 
 //--Texts--//

@@ -14,3 +14,36 @@ body {
   height: 100vh;
   min-height: 100vh;
 }
+
+html {
+  scrollbar-color: black rgb(59, 55, 55) !important;
+  scrollbar-width: thin;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-zone {
+  display: none;
+}
+
+@media all and (max-width: 985px) {
+  body {
+    display: grid;
+    place-content: center;
+    padding: 0 10vw;
+  }
+  .mobile-zone {
+    display: block;
+    font-size: clamp(1rem, 5vw, 3rem);
+    width: fit-content;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .hero-wrapper,
+  .products-wrapper {
+    display: none;
+  }
+}

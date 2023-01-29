@@ -1,3 +1,5 @@
+@use "../globals/variables";
+
 .hero-wrapper {
   width: 100%;
   background-image: url("/src/assets/hero-bg.jpg");
@@ -8,10 +10,133 @@
 
 .wrapper {
   width: 100%;
-  padding: 0 5vw;
+  padding: 0 var(--padding);
 }
 
 .main-hero {
   position: relative;
   height: 100vmin;
 }
+
+.side-logo-wrapper {
+  position: absolute;
+  top: 13.063rem;
+  left: 0;
+  padding-left: 4.875rem;
+  border-bottom: 1.0625rem solid #e1ded9;
+
+  &__main-content {
+  }
+
+  &__logo {
+  }
+}
+
+.side-finally-wrapper {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  max-width: 455px;
+  &__main-content {
+    padding: 32px 40px;
+    max-width: 100%;
+
+    & > * + * {
+      margin-top: 1rem;
+    }
+  }
+
+  &__header {
+  }
+
+  &__ctaLink {
+    & > a {
+      display: block;
+      width: fit-content;
+      text-decoration: none;
+      color: black;
+      border-radius: 50px;
+      padding: 0.5em 34px;
+      border: 1px solid black;
+      transition: background-color 0.3s ease, border 0.3s ease;
+
+      &:hover {
+        background-color: variables.$hoverColor;
+        border: 1px solid variables.$hoverColor;
+      }
+    }
+  }
+
+  //These are texts
+  &__big {
+  }
+
+  &__small {
+  }
+}
+
+.regimen-wrapper {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: calc(0vw + var(--padding));
+  width: 330px;
+  background-color: variables.$hoverColor;
+  &__main-content {
+    padding: 24px 40px;
+  }
+
+  &__top {
+    margin-bottom: 16px;
+  }
+
+  &__ctaLink {
+    & > a {
+      position: relative;
+      display: block;
+      width: fit-content;
+      color: black;
+      padding-right: 40px;
+
+      &::before {
+        display: inline-block;
+        content: "";
+        width: 25px;
+        height: 5px;
+        border-bottom: 1px solid #333;
+        position: absolute;
+        right: 1px;
+        top: 8px;
+      }
+
+      &::after {
+        display: inline-block;
+        content: "";
+        width: 7px;
+        height: 7px;
+        border: 1px solid #333;
+        border-bottom-color: rgb(51, 51, 51);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgb(51, 51, 51);
+        border-left-style: solid;
+        border-left-width: 1px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        border-bottom: 0;
+        border-left: 0;
+        right: 0;
+        top: 9px;
+      }
+    }
+  }
+
+  &__arrow-link {
+  }
+}
+
+//--Texts--//
+//big
+//small

@@ -96,7 +96,7 @@
     transform: translateY(-100%);
   }
 }
-.hero-wrapper:not(#contact-page .hero-wrapper) {
+.hero-wrapper:not(#contact-page .hero-wrapper):not(#skincare-page .hero-wrapper) {
   width: 100%;
   background-image: url("/src/assets/hero-bg-2.jpg");
   background-size: cover;
@@ -108,7 +108,24 @@
   width: 100%;
 }
 
+#skincare-page .hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100vmin - var(--hero-height));
+}
+
+#skincare-hero-wrapper {
+  height: 100%;
+  width: 85%;
+}
+
+#skincare-page .hero-wrapper {
+  display: grid;
+  place-items: center;
+}
+
 .wrapper {
+  position: relative;
   width: 100%;
   padding: 0 var(--padding);
 }
@@ -153,6 +170,7 @@
   background-color: #fde04b;
   border: 1px solid #fde04b;
 }
+
 .regimen-wrapper {
   position: absolute;
   z-index: 1;
@@ -204,6 +222,7 @@
   right: 0;
   top: 9px;
 }
+
 .regimen-builder-wrapper {
   width: min(50%, 37rem);
   font-size: 1rem;
@@ -264,6 +283,48 @@
   white-space: nowrap;
   left: 0;
   bottom: 0;
+}
+
+.skincares-flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.skincares-flex-container .flex-item {
+  font-size: 1rem;
+}
+.skincares-flex-container > * {
+  width: 100%;
+  height: 100%;
+  padding: 3em 0;
+}
+.skincares-flex-container__flex-item-1 .bold-text {
+  margin: 1.8em 0;
+}
+.skincares-flex-container__flex-item-4 .img-wrapper {
+  width: min(80%, 15rem);
+}
+.skincares-flex-container__flex-item-4 .img {
+  max-width: 100%;
+}
+.skincares-flex-container__text-contents .title-small {
+  font-size: 0.8em;
+}
+.skincares-flex-container__text-contents .desc-big {
+  font-size: 1.2em;
+}
+.skincares-flex-container__thin {
+  margin: 0.5em 0;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.bold-text:not(.skincares-flex-container__flex-item-1 > .bold-text):not(.desc-big) {
+  margin-top: 1.8em;
 }
 
 .products-wrapper {
@@ -404,7 +465,7 @@ a {
     margin-inline: auto;
   }
   .hero-wrapper,
-.products-wrapper {
+.products-wrapper, #skincare-page .hero-wrapper {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

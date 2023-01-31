@@ -1,3 +1,5 @@
 :root {
   --padding: 10vw;
+  --padding-each-section: 4vmin;
+  --margin-top: 0.8rem;
 }

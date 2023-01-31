@@ -40,6 +40,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar__bottom > a {
+  color: black;
+}
 .navbar__bottom .left-logo {
   display: flex;
   align-items: center;
@@ -66,6 +69,30 @@
 }
 .navbar__bottom .mid-navlinks ul > li {
   display: block;
+  position: relative;
+}
+.navbar__bottom .mid-navlinks ul > li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.4s ease-out;
+}
+.navbar__bottom .mid-navlinks ul > li:hover::after {
+  transform: scaleX(1);
+}
+.navbar__bottom .mid-navlinks ul > li[data-nav-active=true]::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  transform: scaleX(1);
+  transition: transform 0.4s ease-out;
 }
 .navbar__bottom .mid-navlinks ul > li > a {
   font-weight: 700;
@@ -323,8 +350,28 @@
   font-weight: 700;
 }
 
-.bold-text:not(.skincares-flex-container__flex-item-1 > .bold-text):not(.desc-big) {
+.bold-text:not(.skincares-flex-container__flex-item-1 > .bold-text):not(.desc-big):not(.footer-wrapper__contact-form-title.bold-text):not(.footer-wrapper__li.bold-text) {
   margin-top: 1.8em;
+}
+
+.promo-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: var(--padding-each-section);
+  border-top: 1px solid #e1ded9;
+  border-bottom: 1px solid #e1ded9;
+  overflow: hidden;
+}
+.promo-wrapper img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.promo-wrapper__main-content {
+  width: 100%;
+  height: 50vmin;
 }
 
 .products-wrapper {
@@ -378,7 +425,7 @@
   flex: 0 auto;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: start;
   justify-content: center;
 }
 .swiper-products__flex-item-2 a {
@@ -423,6 +470,68 @@
   color: black !important;
 }
 
+.footer-wrapper {
+  width: 100%;
+}
+.footer-wrapper:not(#homepage footer) {
+  border-top: 1px solid #e1ded9;
+}
+.footer-wrapper__main-contents {
+  width: 80%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-inline: auto;
+}
+.footer-wrapper__flex-container {
+  display: flex;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.footer-wrapper__flex-container > * {
+  width: 100%;
+}
+.footer-wrapper__ul {
+  list-style-type: none;
+}
+.footer-wrapper__ul > li:not(li.bold-text) {
+  margin-top: var(--margin-top);
+}
+.footer-wrapper__ul li.bold-text {
+  margin-top: var(--margin-top);
+}
+.footer-wrapper__inputEmail {
+  margin-top: var(--margin-top);
+  padding: 0.5em;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e1ded9;
+}
+.footer-wrapper__small {
+  margin-top: calc(1em + var(--margin-top));
+  display: block;
+}
+.footer-wrapper__socmeds {
+  display: flex;
+  justify-content: space-between;
+  margin: calc(1em + var(--margin-top)) 0;
+}
+.footer-wrapper__socmeds > * {
+  width: 1.5em;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.footer-wrapper__socmeds > * svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+:is(.footer-wrapper__ul, .footer-wrapper__contact-form) .bold-text .footer-wrapper__li {
+  margin-top: unset !important;
+  margin-bottom: var(--margin-top);
+}
+
 *,
 *::after,
 *::before {
@@ -443,12 +552,21 @@ body.active {
   overflow: auto;
 }
 
-html {
+html,
+body {
   scrollbar-color: black rgb(59, 55, 55) !important;
   scrollbar-width: thin;
 }
+html ::-webkit-scrollbar,
+body ::-webkit-scrollbar {
+  background-color: rgb(59, 55, 55);
+}
+html ::-webkit-scrollbar-thumb,
+body ::-webkit-scrollbar-thumb {
+  background-color: black;
+}
 
-a {
+body a {
   text-decoration: none;
 }
 
@@ -472,7 +590,7 @@ a {
   pointer-events: auto;
 }
 
-@media all and (max-width: 985px) {
+@media all and (max-width: 1004px) {
   body {
     display: grid;
     place-content: center;
@@ -486,7 +604,10 @@ a {
     margin-inline: auto;
   }
   .hero-wrapper,
-.products-wrapper, #skincare-page .hero-wrapper {
+.promo-wrapper,
+.products-wrapper,
+#skincare-page .hero-wrapper,
+.footer-wrapper {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,8 @@
 @use "../globals/variables";
 
-.hero-wrapper:not(#contact-page .hero-wrapper):not(#skincare-page .hero-wrapper){
+.hero-wrapper:not(#contact-page .hero-wrapper):not(
+    #skincare-page .hero-wrapper
+  ) {
   width: 100%;
   background-image: url("/src/assets/hero-bg-2.jpg");
   background-size: cover;
@@ -12,18 +14,18 @@
   width: 100%;
 }
 
-#skincare-page .hero-wrapper{
+#skincare-page .hero-wrapper {
   position: relative;
   width: 100%;
   height: calc(100vmin - var(--hero-height));
 }
 
-#skincare-hero-wrapper{
+#skincare-hero-wrapper {
   height: 100%;
   width: 85%;
 }
 
-#skincare-page .hero-wrapper{
+#skincare-page .hero-wrapper {
   display: grid;
   place-items: center;
 }
@@ -45,7 +47,7 @@
   left: 0;
   padding-left: 4.875rem;
   border-bottom: 1.0625rem solid #e1ded9;
-  
+
   &__main-content {
   }
 
@@ -143,7 +145,6 @@
       }
     }
   }
-
 }
 
 .regimen-builder-wrapper {
@@ -213,62 +214,81 @@
   bottom: 0;
 }
 
-.skincares-flex-container{
+.skincares-flex-container {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: start; 
+  align-items: start;
 
-
-  & .flex-item{
+  & .flex-item {
     font-size: 1rem;
   }
 
-  & > *{
+  & > * {
     width: 100%;
     height: 100%;
     padding: 3em 0;
   }
-  &__flex-item-1{
-
-
-    & .bold-text{
+  &__flex-item-1 {
+    & .bold-text {
       margin: 1.8em 0;
     }
-    
   }
-  &__flex-item-4{
-    & .img-wrapper{
+  &__flex-item-4 {
+    & .img-wrapper {
       width: min(80%, 15rem);
     }
 
-    & .img{
+    & .img {
       max-width: 100%;
     }
   }
 
-  &__text-contents{
-    & .title-small{
-      font-size: .8em;
+  &__text-contents {
+    & .title-small {
+      font-size: 0.8em;
     }
 
-
-    & .desc-big{
+    & .desc-big {
       font-size: 1.2em;
     }
   }
 
-  &__thin{
-    margin: .5em 0;
+  &__thin {
+    margin: 0.5em 0;
   }
 }
 
-.bold-text{
+.bold-text {
   font-weight: variables.getFontWeight("bold");
 }
 
-.bold-text:not(.skincares-flex-container__flex-item-1 > .bold-text):not(.desc-big){
+.bold-text:not(.skincares-flex-container__flex-item-1 > .bold-text):not(
+    .desc-big
+  ):not(.footer-wrapper__contact-form-title.bold-text):not(
+    .footer-wrapper__li.bold-text
+  ) {
   margin-top: 1.8em;
 }
 
+.promo-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: var(--padding-each-section);
+  border-top: 1px solid variables.$borderColor;
+  border-bottom: 1px solid variables.$borderColor;
+  overflow: hidden;
+
+  & img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }
+  &__main-content {
+    width: 100%;
+    height: 50vmin;
+  }
+}

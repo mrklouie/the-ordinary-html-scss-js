@@ -15,16 +15,26 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
-body.active{
+body.active {
   overflow: auto;
 }
 
-html {
+html,
+body {
+  // For Mozilla
   scrollbar-color: black rgb(59, 55, 55) !important;
   scrollbar-width: thin;
+
+  // For Chrome and other browsers
+  ::-webkit-scrollbar {
+    background-color: rgb(59, 55, 55);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
 }
 
-a {
+body a {
   text-decoration: none;
 }
 
@@ -37,18 +47,17 @@ a {
   height: 5px !important;
 }
 
-.container{
+.container {
   opacity: 0;
-  transition: opacity .7s ease-out;
+  transition: opacity 0.7s ease-out;
   pointer-events: none;
 }
-.container.active{
+.container.active {
   opacity: 1;
   pointer-events: auto;
 }
 
-
-@media all and (max-width: 985px) {
+@media all and (max-width: 1004px) {
   body {
     display: grid;
     place-content: center;
@@ -63,8 +72,10 @@ a {
   }
 
   .hero-wrapper,
-  .products-wrapper, #skincare-page .hero-wrapper {
+  .promo-wrapper,
+  .products-wrapper,
+  #skincare-page .hero-wrapper,
+  .footer-wrapper {
     display: none;
   }
 }
-

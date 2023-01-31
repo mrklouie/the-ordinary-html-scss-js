@@ -11,15 +11,32 @@
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Filled"
       rel="stylesheet"
     />
-    <script src="./js/rep/pace.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d98474fa5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/lib/pace.min.js"></script>
     <script src="./js/pace.js" defer></script>
-    <link rel="stylesheet" href="./css/rep/pace-theme-default.min.css">
+    <link rel="stylesheet" href="./css/lib/pace-theme-default.min.css" />
   </head>
-  <body>
+  <body id="homepage" data-scroll-container>
     <div class="container">
       <h1 class="mobile-zone">
-        Yikes! Mobile version is still under maintenance. Please view this on
-        desktop for the meantime.
+        Yikes! Mobile and Tablet version is still under maintenance. Please view
+        this on desktop for the meantime.
+        <small
+          style="
+            display: block;
+            font-size: clamp(0.7rem, 2vw, 1rem);
+            margin-top: 3rem;
+          "
+          >Danica Balbuena Lucban IT1207</small
+        >
       </h1>
       <div class="hero-wrapper">
         <header>
@@ -30,39 +47,49 @@
                   <div class="slide-1 slide">
                     Free shipping on orders over 250 USD
                   </div>
-                  <div class="slide-2 slide">Carbon neutral shipping on all orders.</div>
+                  <div class="slide-2 slide">
+                    Carbon neutral shipping on all orders.
+                  </div>
                 </div>
               </div>
             </div>
             <div class="navbar__bottom">
-              <div class="left-logo">
-                <div class="img">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="13"
-                    viewBox="0 0 15 13"
-                    fill="none"
-                  >
-                    <path
-                      d="M6.33766 12.6923C5.38483 12.6923 4.52171 12.5126 3.74586 12.1556C2.97002 11.7962 2.30571 11.3202 1.75049 10.7274C1.19528 10.1347 0.76372 9.45563 0.460656 8.69256C0.152744 7.92714 0 7.1454 0 6.34498C0 5.5119 0.162442 4.71148 0.484902 3.9484C0.807361 3.18533 1.25347 2.50859 1.82081 1.92053C2.38814 1.33247 3.06215 0.865755 3.84527 0.520387C4.62839 0.175018 5.47454 0 6.391 0C7.33171 0 8.18999 0.184352 8.96341 0.55539C9.73925 0.926428 10.4011 1.40948 10.9515 2.00921C11.5019 2.60893 11.9286 3.29034 12.2341 4.05341C12.5396 4.81649 12.6923 5.59357 12.6923 6.37999C12.6923 7.2154 12.5323 8.01115 12.2171 8.76956C11.8995 9.52798 11.4606 10.1977 10.8982 10.7788C10.3381 11.3598 9.66409 11.8242 8.8834 12.1719C8.10028 12.5196 7.25413 12.6923 6.33766 12.6923ZM2.56513 6.34498C2.56513 6.88637 2.64999 7.40909 2.82213 7.91314C2.99427 8.41953 3.24157 8.86524 3.56403 9.25261C3.88891 9.63999 4.28411 9.95269 4.75446 10.186C5.22481 10.4217 5.75821 10.5384 6.35706 10.5384C6.96804 10.5384 7.5087 10.4194 7.97905 10.1767C8.44941 9.93635 8.84703 9.61432 9.16949 9.21528C9.49195 8.81624 9.73682 8.36586 9.90169 7.86647C10.0666 7.36709 10.149 6.85837 10.149 6.34265C10.149 5.80126 10.0617 5.27854 9.88472 4.77449C9.70773 4.27044 9.45558 3.82239 9.13312 3.43502C8.80824 3.04765 8.41304 2.73961 7.94269 2.50859C7.47233 2.27757 6.94379 2.16555 6.35948 2.16555C5.74851 2.16555 5.20542 2.2869 4.73021 2.52726C4.25501 2.76762 3.85739 3.08498 3.53978 3.47936C3.22217 3.87373 2.98214 4.31944 2.81728 4.81883C2.64756 5.32054 2.56513 5.82926 2.56513 6.34498Z"
-                      fill="#000000"
-                    />
-                    <path
-                      d="M13.1055 11.8611V9.38086H14.9998V11.8611H13.1055Z"
-                      fill="#000000"
-                    />
-                  </svg>
+              <a href="./index.html">
+                <div class="left-logo">
+                  <div class="img">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="13"
+                      viewBox="0 0 15 13"
+                      fill="none"
+                    >
+                      <path
+                        d="M6.33766 12.6923C5.38483 12.6923 4.52171 12.5126 3.74586 12.1556C2.97002 11.7962 2.30571 11.3202 1.75049 10.7274C1.19528 10.1347 0.76372 9.45563 0.460656 8.69256C0.152744 7.92714 0 7.1454 0 6.34498C0 5.5119 0.162442 4.71148 0.484902 3.9484C0.807361 3.18533 1.25347 2.50859 1.82081 1.92053C2.38814 1.33247 3.06215 0.865755 3.84527 0.520387C4.62839 0.175018 5.47454 0 6.391 0C7.33171 0 8.18999 0.184352 8.96341 0.55539C9.73925 0.926428 10.4011 1.40948 10.9515 2.00921C11.5019 2.60893 11.9286 3.29034 12.2341 4.05341C12.5396 4.81649 12.6923 5.59357 12.6923 6.37999C12.6923 7.2154 12.5323 8.01115 12.2171 8.76956C11.8995 9.52798 11.4606 10.1977 10.8982 10.7788C10.3381 11.3598 9.66409 11.8242 8.8834 12.1719C8.10028 12.5196 7.25413 12.6923 6.33766 12.6923ZM2.56513 6.34498C2.56513 6.88637 2.64999 7.40909 2.82213 7.91314C2.99427 8.41953 3.24157 8.86524 3.56403 9.25261C3.88891 9.63999 4.28411 9.95269 4.75446 10.186C5.22481 10.4217 5.75821 10.5384 6.35706 10.5384C6.96804 10.5384 7.5087 10.4194 7.97905 10.1767C8.44941 9.93635 8.84703 9.61432 9.16949 9.21528C9.49195 8.81624 9.73682 8.36586 9.90169 7.86647C10.0666 7.36709 10.149 6.85837 10.149 6.34265C10.149 5.80126 10.0617 5.27854 9.88472 4.77449C9.70773 4.27044 9.45558 3.82239 9.13312 3.43502C8.80824 3.04765 8.41304 2.73961 7.94269 2.50859C7.47233 2.27757 6.94379 2.16555 6.35948 2.16555C5.74851 2.16555 5.20542 2.2869 4.73021 2.52726C4.25501 2.76762 3.85739 3.08498 3.53978 3.47936C3.22217 3.87373 2.98214 4.31944 2.81728 4.81883C2.64756 5.32054 2.56513 5.82926 2.56513 6.34498Z"
+                        fill="#000000"
+                      />
+                      <path
+                        d="M13.1055 11.8611V9.38086H14.9998V11.8611H13.1055Z"
+                        fill="#000000"
+                      />
+                    </svg>
+                  </div>
+                  <div class="logo-text">
+                    <span>The<br />Ordinary</span>
+                  </div>
                 </div>
-                <div class="logo-text">
-                  <span>The<br />Ordinary</span>
-                </div>
-              </div>
+              </a>
               <div class="mid-navlinks">
                 <ul>
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./contact.html">Contact us</a></li>
-                  <li><a href="./skincares.html">Skincares</a></li>
+                  <li data-nav-active="true">
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li data-nav-active="false">
+                    <a href="./contact.html">Contact us</a>
+                  </li>
+                  <li data-nav-active="false">
+                    <a href="./skincares.html">Skincares</a>
+                  </li>
                 </ul>
               </div>
               <div class="right-icons">
@@ -325,7 +352,9 @@
                       src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw5cb6e50c/Images/products/The%20Ordinary/rdn-matrixyl-10pct-ha-30ml.png?sw=500&amp;sh=500&amp;sm=fit"
                     />
                   </div>
-                  <div class="swiper-products__flex-item-2 flex-itemproduct-info">
+                  <div
+                    class="swiper-products__flex-item-2 flex-itemproduct-info"
+                  >
                     <div class="product-name">
                       <a href="#">Matrixyl 10% + HA</a>
                     </div>
@@ -344,7 +373,9 @@
                       src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw5c503d16/Images/products/The%20Ordinary/rdn-multi-peptide-eye-serum-15ml.jpg?sw=500&sh=500&sm=fit"
                     />
                   </div>
-                  <div class="swiper-products__flex-item-2 flex-itemproduct-info">
+                  <div
+                    class="swiper-products__flex-item-2 flex-itemproduct-info"
+                  >
                     <div class="product-name">
                       <a href="#">Matrixyl 10% + HA</a>
                     </div>
@@ -363,7 +394,9 @@
                       src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwf6fd5e39/Images/products/deciem/dbs-the-future-set-eu.png?sw=500&sh=500&sm=fit"
                     />
                   </div>
-                  <div class="swiper-products__flex-item-2 flex-itemproduct-info">
+                  <div
+                    class="swiper-products__flex-item-2 flex-itemproduct-info"
+                  >
                     <div class="product-name">
                       <a href="#">Matrixyl 10% + HA</a>
                     </div>
@@ -382,7 +415,9 @@
                       src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw072fb36c/Images/products/The%20Ordinary/rdn-multi-peptide-lash-and-brow-serum-eu-5ml.png?sw=500&sh=500&sm=fit"
                     />
                   </div>
-                  <div class="swiper-products__flex-item-2 flex-itemproduct-info">
+                  <div
+                    class="swiper-products__flex-item-2 flex-itemproduct-info"
+                  >
                     <div class="product-name">
                       <a href="#">Matrixyl 10% + HA</a>
                     </div>
@@ -401,7 +436,9 @@
                       src="https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw9ef29ca7/Images/products/The%20Ordinary/rdn-argireline-solution-10pct-30ml.png?sw=500&sh=500&sm=fit"
                     />
                   </div>
-                  <div class="swiper-products__flex-item-2 flex-itemproduct-info">
+                  <div
+                    class="swiper-products__flex-item-2 flex-itemproduct-info"
+                  >
                     <div class="product-name">
                       <a href="#">Matrixyl 10% + HA</a>
                     </div>
@@ -418,6 +455,131 @@
           </div>
         </div>
       </div>
+      <div class="promo-wrapper">
+        <img src="/src/assets/promo-image.jpg" alt="" />
+        <div class="promo-wrapper__main-content wrapper">
+          <div class="side-finally-wrapper">
+            <div class="side-finally-wrapper__main-content">
+              <div class="side-finally-wrapper__header">
+                <h2 class="side-finally-wrapper__big">Everyday Essentials</h2>
+              </div>
+              <div class="side-finally-wrapper__small">
+                <p>
+                  Our beginner-friendly Hyaluronic Acid 2% + B5 boosts
+                  hydration, while Niacinamide 10% + Zinc 1% improves the look
+                  of skin radiance.
+                </p>
+              </div>
+              <div class="side-finally-wrapper__ctaLink">
+                <a href="./contact.html" class="btn-rounded-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-wrapper">
+        <div class="footer-wrapper__main-contents wrapper">
+          <div class="footer-wrapper__flex-container">
+            <div class="column-1">
+              <ul class="footer-wrapper__ul">
+                <li class="footer-wrapper__li bold-text">Company</li>
+                <li class="footer-wrapper__li">About Us</li>
+                <li class="footer-wrapper__li">Join Us</li>
+              </ul>
+              <ul class="footer-wrapper__ul">
+                <li class="footer-wrapper__li bold-text">Our Commitments</li>
+                <li class="footer-wrapper__li">Accessibility</li>
+                <li class="footer-wrapper__li">Sustainability</li>
+                <li class="footer-wrapper__li">Commit to change</li>
+                <li class="footer-wrapper__li">Everything is chemicals</li>
+              </ul>
+            </div>
+            <div class="column-2">
+              <ul class="footer-wrapper__ul">
+                <li class="footer-wrapper__li bold-text">Customer Care</li>
+                <li class="footer-wrapper__li">About Us</li>
+                <li class="footer-wrapper__li">Join Us</li>
+              </ul>
+            </div>
+            <div class="column-3">
+              <ul class="footer-wrapper__ul">
+                <li class="footer-wrapper__li bold-text">Contact Us</li>
+                <li class="footer-wrapper__li bold-text">Track Order</li>
+                <li class="footer-wrapper__li bold-text">Sign in</li>
+                <li class="footer-wrapper__li bold-text">Store Locator</li>
+              </ul>
+            </div>
+            <div class="column-4">
+              <div class="footer-wrapper__contact-form">
+                <h2 class="footer-wrapper__contact-form-title bold-text">
+                  Stay in Touch
+                </h2>
+                <input
+                  type="text"
+                  placeholder="Email address"
+                  class="footer-wrapper__inputEmail"
+                />
+                <small class="footer-wrapper__small">
+                  *By checking the above box you are agreeing to receive email
+                  communications from DECIEM Inc., it affiliates, brands (The
+                  Ordinary and NIOD) and/or marketing partners. This can be
+                  changed at any time. Please refer to our
+                </small>
+              </div>
+              <div class="footer-wrapper__socmeds">
+                <div class="fb">
+                  <a href="https://www.facebook.com/deciem" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="yt">
+                  <a href="https://www.instagram.com/deciem/" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                    >
+                      <path
+                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="ig">
+                  <a href="https://www.youtube.com/deciem" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="tiktok">
+                  <a href="https://www.tiktok.com/@deciem" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script type="module" src="./js/swiper.js"></script>
   </body>

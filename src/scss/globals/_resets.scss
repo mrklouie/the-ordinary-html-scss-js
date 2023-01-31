@@ -13,6 +13,10 @@ body {
   width: 100%;
   height: 100vh;
   min-height: 100vh;
+  overflow: hidden;
+}
+body.active{
+  overflow: auto;
 }
 
 html {
@@ -27,6 +31,22 @@ a {
 .mobile-zone {
   display: none;
 }
+
+.pace .pace-progress {
+  background: black !important;
+  height: 5px !important;
+}
+
+.container{
+  opacity: 0;
+  transition: opacity .7s ease-out;
+  pointer-events: none;
+}
+.container.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
 
 @media all and (max-width: 985px) {
   body {
@@ -47,3 +67,4 @@ a {
     display: none;
   }
 }
+

@@ -260,6 +260,11 @@
   }
 }
 
+#skincare-footer.footer-wrapper {
+  position: relative;
+  top: var(--hero-height);
+}
+
 .bold-text {
   font-weight: variables.getFontWeight("bold");
 }

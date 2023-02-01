@@ -30,7 +30,7 @@
   place-content: center;
   min-width: 100%;
   min-height: 100%;
-  animation: animateCarousel 3s ease-out infinite alternate;
+  animation: animateCarousel 3s cubic-bezier(0.51, 0.64, 0.25, 1.39) infinite alternate;
 }
 .navbar__bottom {
   padding: 0.5rem 2vw;
@@ -116,11 +116,23 @@
 }
 
 @keyframes animateCarousel {
-  from {
+  0% {
     transform: translateY(0%);
   }
-  to {
+  10% {
+    transform: translateY(0%);
+  }
+  50% {
     transform: translateY(-100%);
+  }
+  60% {
+    transform: translateY(-100%);
+  }
+  90% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(-200%);
   }
 }
 .hero-wrapper:not(#contact-page .hero-wrapper):not(#skincare-page .hero-wrapper) {
@@ -346,6 +358,11 @@
   margin: 0.5em 0;
 }
 
+#skincare-footer.footer-wrapper {
+  position: relative;
+  top: var(--hero-height);
+}
+
 .bold-text {
   font-weight: 700;
 }
@@ -530,6 +547,103 @@
 :is(.footer-wrapper__ul, .footer-wrapper__contact-form) .bold-text .footer-wrapper__li {
   margin-top: unset !important;
   margin-bottom: var(--margin-top);
+}
+
+.modal {
+  transform-origin: center;
+  transition: transform 0.2s ease-out;
+  position: fixed;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: min(75%, 60rem);
+  height: 75%;
+  background-color: white;
+  color: #333;
+}
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal__header {
+  background-color: #333;
+  width: 100%;
+}
+.modal__close {
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  font-size: 2em;
+  padding: 0 1em;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.modal__body {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+.modal__body > * {
+  height: 100%;
+}
+.modal__left {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+.modal__left img {
+  max-width: 100%;
+}
+.modal__right {
+  font-size: 1rem;
+  width: 50%;
+  background-color: #f5f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.modal__right .contents {
+  width: 80%;
+}
+.modal__right .contents .texts {
+  margin-inline: auto;
+}
+.modal__right .contents .texts .header {
+  font-size: 3em;
+}
+.modal__right .contents button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0.5em 3em;
+}
+.modal__right .contents .controls {
+  margin-top: 1em;
+}
+
+#overlay {
+  display: none;
+  z-index: 98;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#overlay.active {
+  display: block;
+}
+
+#confetti {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 *,

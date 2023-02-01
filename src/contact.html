@@ -11,11 +11,46 @@
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Filled"
       rel="stylesheet"
     />
+
     <script src="./js/lib/pace.min.js"></script>
     <script src="./js/pace.js" defer></script>
+
+    <script type="module" src="./js/modal.js" defer></script>
     <link rel="stylesheet" href="./css/lib/pace-theme-default.min.css" />
   </head>
   <body id="contact-page">
+    <canvas id="confetti"></canvas>
+    <div id="overlay"></div>
+    <div class="modal">
+      <div class="modal__header">
+        <button class="modal__close close-modal">&times;</button>
+      </div>
+      <div class="modal__body">
+        <div class="modal__left">
+          <img src="./assets/girl-reading.png" alt="girl reading a book" />
+        </div>
+        <div class="modal__right">
+          <div class="contents">
+            <div class="texts">
+              <h2 class="header">Thank you and stay hydrated all the time!</h2>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+                hic?
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                alias.
+              </p>
+            </div>
+            <div class="controls">
+              <button class="close-modal">Okay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <h1 class="mobile-zone">
         Yikes! Mobile and Tablet version is still under maintenance. Please view
@@ -35,12 +70,9 @@
             <div class="navbar__top">
               <div class="navbar__mid-carousel">
                 <div class="slides">
-                  <div class="slide-1 slide">
-                    Free shipping on orders over 250 USD
-                  </div>
-                  <div class="slide-2 slide">
-                    Carbon neutral shipping on all orders.
-                  </div>
+                  <div class="slide-1 slide">Lucban, Danica D.</div>
+                  <div class="slide-2 slide">Poquiz, Ernie</div>
+                  <div class="slide-3 slide">Peregrino, Beatrice</div>
                 </div>
               </div>
             </div>
@@ -76,7 +108,7 @@
                     <a href="./index.html">Home</a>
                   </li>
                   <li data-nav-active="true">
-                    <a href="./contact.html">Contact us</a>
+                    <a href="./contact.html">Regimen Builder</a>
                   </li>
                   <li data-nav-active="false">
                     <a href="./skincares.html">Skincares</a>
@@ -295,26 +327,8 @@
               </svg>
             </div>
           </div>
-          <div class="side-finally-wrapper">
-            <div class="side-finally-wrapper__main-content">
-              <div class="side-finally-wrapper__header">
-                <h2 class="side-finally-wrapper__big">
-                  Finally—the eye serum you asked us for.
-                </h2>
-              </div>
-              <div class="side-finally-wrapper__small">
-                <p>
-                  Target multiple signs of eye aging, puffiness, and dark
-                  circles—with one serum. Meet our new<br />Multi-Peptide Eye
-                  Serum.
-                </p>
-              </div>
-              <div class="side-finally-wrapper__ctaLink">
-                <a href="./contact.html" class="btn-rounded-primary">Shop</a>
-              </div>
-            </div>
-          </div>
-          <div class="regimen-wrapper">
+
+          <!-- <div class="regimen-wrapper">
             <div class="regimen-wrapper__main-content">
               <div class="regimen-wrapper__top">Not sure where to start?</div>
               <div class="regimen-wrapper__ctaLink">
@@ -323,7 +337,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="regimen-builder-wrapper">
             <div class="regimen-builder-wrapper__header">
               <h2>
@@ -333,15 +347,17 @@
               </h2>
             </div>
             <div class="regimen-builder-wrapper__form-wrapper">
-              <input
-                type="text"
-                class="regimen-builder-wrapper__inputName"
-                placeholder="Enter your name"
-              />
-              <div class="regimen-builder-wrapper__form-footer">
-                <p>This is will take 4 minutes</p>
-                <button class="regimen-builder-wrapper__submit">OK</button>
-              </div>
+              <form id="regimen-builder-form">
+                <input
+                  type="text"
+                  class="regimen-builder-wrapper__inputName"
+                  placeholder="Enter your name"
+                />
+                <div class="regimen-builder-wrapper__form-footer">
+                  <p>This is will take 4 minutes</p>
+                  <button class="regimen-builder-wrapper__submit">OK</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -372,7 +388,7 @@
             </div>
             <div class="column-3">
               <ul class="footer-wrapper__ul">
-                <li class="footer-wrapper__li bold-text">Contact Us</li>
+                <li class="footer-wrapper__li bold-text">Regimen Builder</li>
                 <li class="footer-wrapper__li bold-text">Track Order</li>
                 <li class="footer-wrapper__li bold-text">Sign in</li>
                 <li class="footer-wrapper__li bold-text">Store Locator</li>

@@ -1,0 +1,110 @@
+.modal {
+  transform-origin: center;
+  transition: transform 0.2s ease-out;
+  position: fixed;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: min(75%, 60rem);
+  height: 75%;
+  background-color: white;
+
+  &.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  color: #333;
+
+  &__header {
+    background-color: #333;
+    width: 100%;
+  }
+
+  &__close {
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    display: block;
+    font-size: 2em;
+    padding: 0 1em;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__body {
+    height: 100%;
+    display: flex;
+    width: 100%;
+
+    & > * {
+      height: 100%;
+    }
+  }
+
+  &__left {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+
+    & img {
+      max-width: 100%;
+    }
+  }
+
+  &__right {
+    font-size: 1rem;
+    width: 50%;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    & .contents {
+      width: 80%;
+      & .texts {
+        margin-inline: auto;
+
+        & .header {
+          font-size: 3em;
+        }
+      }
+
+      & button {
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 0.5em 3em;
+      }
+
+      & .controls {
+        margin-top: 1em;
+      }
+    }
+  }
+}
+
+#overlay {
+  display: none;
+  z-index: 98;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  &.active {
+    display: block;
+  }
+}
+
+#confetti {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+}
